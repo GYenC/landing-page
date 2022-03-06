@@ -37,7 +37,7 @@ body {
     justify-content: center;
 }
 
-.button {
+.button, .newsbutton {
     background-color:rgb(253, 168, 119);
     justify-content: baseline;
     border-radius: 8px;
@@ -94,4 +94,28 @@ body {
     text-align: right;
     font-weight: 900;
     font-size: 20px;
+}
+
+.news {
+    display: flex;
+    margin: 40px 0px 40px 0px;
+    padding: 40px;
+    background-color:rgb(253, 168, 119);
+    justify-content: space-between;
+}
+
+.join {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.newsbutton {
+    border:2px solid rgb(255, 232, 181);
+}
+
+.footer {
+    background-color: #333333;
+    text-align: center;
+    padding: 20px;
+    color: #CCCCCC;
 }

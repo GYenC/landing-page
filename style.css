@@ -7,23 +7,39 @@
     font-size: 28px;
 }
 
-body {
+.col {
     display: flex;
     flex-direction: column;
+}
+
+.actualhead {
+    display: flex;
+    background-color:rgb(255, 232, 181);
+    color: #434343;
+    padding: 20px 50px 20px 50px;
+
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .header {
     display: flex;
     background-color: rgb(255, 232, 181);
     color: #434343;
-    padding: 100px;
+    padding: 50px;
     gap:50px;
-    justify-content: center;
 }
 
 .headleft {
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
     flex: 1;
@@ -31,14 +47,15 @@ body {
 
 .headright {
     flex: 1;
+    padding: 20px;
     display: flex;
-    background-color:rgb(253, 211, 119);
+    background-color:rgb(226, 170, 132);
     align-items: center;
     justify-content: center;
 }
 
 .button, .newsbutton {
-    background-color:rgb(253, 168, 119);
+    background-color:rgb(255, 197, 163);
     justify-content: baseline;
     border-radius: 8px;
     width: 100px;
@@ -46,11 +63,9 @@ body {
 }
 
 .info {
-    background-color: rgb(253, 168, 119);
-    display: flex;
-    flex-direction: column;
+    background-color: rgb(255, 197, 163);
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .infohead {
@@ -60,15 +75,18 @@ body {
 
 .infodetails {
     display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .infopic {
-    border: 5px solid rgb(255, 185, 33);
+    border: 5px solid rgb(226, 170, 132);
     background-color: rgb(255, 232, 181);
     border-radius: 8px;
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
 }
 
 .block {
@@ -80,7 +98,7 @@ body {
 .quotebox {
     flex-flow: column;
     background-color:rgb(255, 245, 223);
-    padding: 50px 120px 50px 120px;
+    padding: 50px;
 }
 
 .quote {
@@ -98,9 +116,10 @@ body {
 
 .news {
     display: flex;
-    margin: 40px 0px 40px 0px;
-    padding: 40px;
-    background-color:rgb(253, 168, 119);
+    margin: 40px 40px 40px 40px;
+    border-radius: 10px;
+    padding: 50px;
+    background-color:rgb(255, 197, 163);
     justify-content: space-between;
 }
 

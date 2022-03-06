@@ -76,3 +76,22 @@ body {
     margin: 10px;
     width: 150px;
 }
+
+.quotebox {
+    flex-flow: column;
+    background-color:rgb(255, 245, 223);
+    padding: 50px 120px 50px 120px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+    color: #888888;
+    margin-bottom: 30px;
+}
+
+.anon {
+    text-align: right;
+    font-weight: 900;
+    font-size: 20px;
+}
